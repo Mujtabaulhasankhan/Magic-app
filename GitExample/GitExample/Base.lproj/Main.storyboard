@@ -52,10 +52,10 @@
             </objects>
             <point key="canvasLocation" x="460" y="116.49175412293854"/>
         </scene>
-        <!--Colour Picker-->
+        <!--Colour PickerVC-->
         <scene sceneID="DAQ-jP-ogf">
             <objects>
-                <viewController id="MvH-0h-3DK" customClass="ColourPicker" customModule="GitExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="MvH-0h-3DK" customClass="ColourPickerVC" customModule="GitExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HTx-Vc-Ait">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -71,7 +71,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="SelectedButtonWithSender:" destination="MvH-0h-3DK" eventType="touchUpInside" id="due-O1-Npb"/>
+                                            <action selector="SelectedButtonWithSender:" destination="MvH-0h-3DK" eventType="touchUpInside" id="ah7-ul-j3W"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vSD-Gw-tB2">
@@ -82,7 +82,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="SelectedButtonWithSender:" destination="MvH-0h-3DK" eventType="touchUpInside" id="gSD-Mx-zO7"/>
+                                            <action selector="SelectedButtonWithSender:" destination="MvH-0h-3DK" eventType="touchUpInside" id="sOB-VX-14G"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qfB-jG-lcJ">
@@ -93,7 +93,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="SelectedButtonWithSender:" destination="MvH-0h-3DK" eventType="touchUpInside" id="yft-Zy-fkB"/>
+                                            <action selector="SelectedButtonWithSender:" destination="MvH-0h-3DK" eventType="touchUpInside" id="B5R-mW-bPP"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t0d-b4-iG7">
@@ -104,7 +104,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="SelectedButtonWithSender:" destination="MvH-0h-3DK" eventType="touchUpInside" id="0gE-Zs-kPt"/>
+                                            <action selector="SelectedButtonWithSender:" destination="MvH-0h-3DK" eventType="touchUpInside" id="82y-ZT-Uso"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y9K-Gh-GZI">
@@ -115,7 +115,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="SelectedButtonWithSender:" destination="MvH-0h-3DK" eventType="touchUpInside" id="PWy-lr-xMA"/>
+                                            <action selector="SelectedButtonWithSender:" destination="MvH-0h-3DK" eventType="touchUpInside" id="Ryr-GN-4Hf"/>
                                         </connections>
                                     </button>
                                 </subviews>

@@ -28,7 +28,7 @@ class ColourPresentationVC: UIViewController , ColourTransfterDelegate{
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "ColourPickerSeuge"{
-        guard let Colour = segue.destination as? ColourPicker else {return}
+        guard let Colour = segue.destination as? ColourPickerVC else {return}
             Colour.delegate = self
         }
     }
